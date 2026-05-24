@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Quote | Blue Valley Home Improvement</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="Blue Valley Home Improvement" class="logo-img" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html" class="active">Free Quote</a>
+      </nav>
+      <a href="contact.html" class="nav-cta active-cta">Get a Free Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Free Quote</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="mountain-silhouette page-hero-mountains"></div>
+    <div class="page-hero-content">
+      <div class="section-label light">No Obligation</div>
+      <h1>Get a Free Quote</h1>
+      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="contact-section section">
+    <div class="container contact-layout">
+
+      <div class="contact-form-col">
+        <div class="form-card">
+          <h2>Request Your Free Quote</h2>
+          <p class="form-sub">Tell us about your home and what you need — we'll get back to you fast with a clear, honest price.</p>
+          <form class="quote-form" id="quoteForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name *</label>
+                <input type="text" name="firstName" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label>Last Name *</label>
+                <input type="text" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email Address *</label>
+              <input type="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number *</label>
+              <input type="tel" name="phone" placeholder="604-555-0100" required />
+            </div>
+            <div class="form-group">
+              <label>Property Address</label>
+              <input type="text" name="address" placeholder="123 Mountain View Dr, North Vancouver" />
+            </div>
+            <div class="form-group">
+              <label>Services Interested In *</label>
+              <div class="checkbox-group">
+                <label class="checkbox-label"><input type="checkbox" name="service" value="Window Cleaning" /> Window Cleaning</label>
+                <label class="checkbox-label"><input type="checkbox" name="service" value="Gutter Cleaning" /> Gutter Cleaning</label>
+                <label class="checkbox-label"><input type="checkbox" name="service" value="Power Washing" /> Power Washing</label>
+                <label class="checkbox-label"><input type="checkbox" name="service" value="Roof Cleaning" /> Roof Cleaning</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Property Type</label>
+              <select name="propertyType">
+                <option value="">Select one...</option>
+                <option>Single Family Home</option>
+                <option>Townhouse</option>
+                <option>Condo / Strata</option>
+                <option>Commercial Property</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Additional Notes</label>
+              <textarea name="message" rows="4" placeholder="Tell us anything that will help us give you the best quote (e.g., number of windows, driveway size, access concerns, etc.)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-blue btn-full">Send My Quote Request →</button>
+            <p class="form-note">We typically respond within a few hours during business hours.</p>
+          </form>
+          <div class="form-success" id="formSuccess" style="display:none">
+            <div class="success-icon">✓</div>
+            <h3>Quote Request Sent!</h3>
+            <p>Thanks for reaching out. We'll be in touch within 24 hours with your free quote.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-info-col">
+        <div class="contact-info-card">
+          <h3>Contact Us Directly</h3>
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <strong>Phone / Text</strong>
+              <a href="tel:+17789861726">778-986-1726</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:bluevalleyhomeimprovement@gmail.com">bluevalleyhomeimprovement@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <strong>Service Area</strong>
+              <span>North Vancouver, West Vancouver, Burnaby, Coquitlam, Squamish & surrounding areas</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sat: 8:00 AM – 6:00 PM<br />Sunday: 11:00 AM – 4:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-icon">🌧</div>
+          <h4>Our 7-Day Rain Guarantee</h4>
+          <p>If it rains within 7 days of your window clean, we come back and re-clean for free. No questions asked.</p>
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-badge">✓ Fully Insured</div>
+          <div class="trust-badge">✓ No Hidden Fees</div>
+          <div class="trust-badge">✓ 5-Star Rated</div>
+          <div class="trust-badge">✓ Local Business</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.svg" alt="Blue Valley Home Improvement" class="footer-logo" />
+        <p>Professional exterior home services across the Lower Mainland.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <a href="services.html#window">Window Cleaning</a>
+        <a href="services.html#gutter">Gutter Cleaning</a>
+        <a href="services.html#power">Power Washing</a>
+        <a href="services.html#roof">Roof Cleaning</a>
+      </div>
+      <div class="footer-links">
+        <h5>Company</h5>
+        <a href="index.html">Home</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">Free Quote</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Get in Touch</h5>
+        <p>📞 <a href="tel:+17789861726">778-986-1726</a></p>
+        <p>✉ <a href="mailto:bluevalleyhomeimprovement@gmail.com">bluevalleyhomeimprovement@gmail.com</a></p>
+        <p>📍 North Vancouver, BC</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Blue Valley Home Improvement. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

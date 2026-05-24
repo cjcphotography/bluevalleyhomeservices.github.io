@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blue Valley Home Improvement | North Vancouver, BC</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="Blue Valley Home Improvement" class="logo-img" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Free Quote</a>
+      </nav>
+      <a href="contact.html" class="nav-cta">Get a Free Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Free Quote</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="mountain-silhouette hero-mountains"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">North Vancouver's Premier</p>
+      <h1 class="hero-title">Home Improvement<br /><span>Specialists</span></h1>
+      <p class="hero-sub">Window Cleaning · Gutter Cleaning · Power Washing · Roof Cleaning</p>
+      <div class="hero-btns">
+        <a href="contact.html" class="btn btn-white">Get a Free Quote</a>
+        <a href="services.html" class="btn btn-outline-white">Our Services</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><span class="badge-num">500+</span><span class="badge-lbl">Happy Clients</span></div>
+        <div class="badge-divider"></div>
+        <div class="badge"><span class="badge-num">5★</span><span class="badge-lbl">Google Rating</span></div>
+        <div class="badge-divider"></div>
+        <div class="badge"><span class="badge-num">7-Day</span><span class="badge-lbl">Rain Guarantee</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="intro-strip">
+    <div class="container">
+      <p>Trusted by homeowners across <strong>North Vancouver, West Vancouver & the Lower Mainland</strong>. We bring professional-grade equipment and a satisfaction guarantee to every job.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="services-preview section">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">Comprehensive exterior home care from a team you can trust.</p>
+      <div class="services-grid">
+
+        <a href="services.html#window" class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="48" height="48" rx="3" stroke="white" stroke-width="3"/>
+              <line x1="32" y1="8" x2="32" y2="56" stroke="white" stroke-width="2.5"/>
+              <line x1="8" y1="32" x2="56" y2="32" stroke="white" stroke-width="2.5"/>
+              <path d="M14 14L24 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <path d="M38 38L50 50" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Window Cleaning</h3>
+          <p>Spotless glass, sills, and frames. Deionized water & rain guard technology with a 7-day rain guarantee.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+
+        <a href="services.html#gutter" class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 20 H56 V28 H8 Z" stroke="white" stroke-width="3" fill="none"/>
+              <path d="M56 28 L52 52 H44 L48 28" stroke="white" stroke-width="2.5" fill="none"/>
+              <path d="M20 20 L18 14 M32 20 L32 14 M44 20 L46 14" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Gutter Cleaning</h3>
+          <p>Full interior debris removal, exterior scrubbing, and channel clearing for improved flow and curb appeal.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+
+        <a href="services.html#power" class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="20" width="22" height="14" rx="3" stroke="white" stroke-width="3"/>
+              <path d="M32 27 L54 18" stroke="white" stroke-width="3" stroke-linecap="round"/>
+              <path d="M54 18 L58 28 L54 22 L48 30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="20" cy="46" r="5" stroke="white" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Power Washing</h3>
+          <p>Industrial-grade pressure washing for driveways, walkways, and hard surfaces — removing years of buildup.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+
+        <a href="services.html#roof" class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 36 L32 10 L56 36" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+              <rect x="18" y="36" width="28" height="20" stroke="white" stroke-width="2.5"/>
+              <rect x="26" y="44" width="12" height="12" stroke="white" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Roof Cleaning</h3>
+          <p>Soft-wash removal of moss, pollen, and sap — restoring your roof's appearance and extending its lifespan.</p>
+          <span class="card-link">Learn More →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us section-dark">
+    <div class="mountain-silhouette why-mountains"></div>
+    <div class="container">
+      <div class="section-label light">Why Blue Valley</div>
+      <h2 class="section-title light">Built on Trust & Results</h2>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-icon">✓</div>
+          <h4>7-Day Rain Guarantee</h4>
+          <p>If it rains within 7 days of your window clean, we come back — no charge.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">★</div>
+          <h4>5-Star Rated</h4>
+          <p>Consistently top-rated on Google by homeowners across the Lower Mainland.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🛡</div>
+          <h4>Fully Insured</h4>
+          <p>Full liability coverage on every job — your home is protected from day one.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">💧</div>
+          <h4>Deionized Water Tech</h4>
+          <p>Spot-free results using purified water that leaves no mineral residue behind.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">📋</div>
+          <h4>Free, No-Obligation Quotes</h4>
+          <p>Get a clear upfront price before any work begins. No hidden fees, ever.</p>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🏔</div>
+          <h4>Local & Proud</h4>
+          <p>Born and based in North Vancouver — we treat your home like our neighbour's.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS SNIPPET -->
+  <section class="reviews-preview section">
+    <div class="container">
+      <div class="section-label">What Clients Say</div>
+      <h2 class="section-title">Google Reviews</h2>
+      <div class="stars-row">★★★★★ <span>5.0 Average · 80+ Reviews</span></div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>"Blue Valley cleaned our windows before we listed the house and the photos looked incredible. The team was fast, professional, and the results were honestly better than expected. Will definitely book again."</p>
+          <div class="reviewer"><span class="reviewer-avatar">S</span><div><strong>Sarah M.</strong><small>North Vancouver, BC</small></div></div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>"Had our gutters done and the power washing on the driveway in the same visit. They were efficient, cleaned up after themselves, and the price was very fair. Super happy with the whole experience."</p>
+          <div class="reviewer"><span class="reviewer-avatar">J</span><div><strong>James T.</strong><small>West Vancouver, BC</small></div></div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>"The roof cleaning service was outstanding. We had serious moss growth and now the roof looks brand new. They explained everything beforehand and used a soft-wash method that didn't damage a single shingle."</p>
+          <div class="reviewer"><span class="reviewer-avatar">L</span><div><strong>Linda K.</strong><small>Burnaby, BC</small></div></div>
+        </div>
+      </div>
+      <div class="center-btn">
+        <a href="reviews.html" class="btn btn-blue">See All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="mountain-silhouette cta-mountains"></div>
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready for a Cleaner Home?</h2>
+        <p>Book your free, no-obligation quote today. We serve North Vancouver, West Vancouver, Burnaby, and surrounding areas.</p>
+      </div>
+      <a href="contact.html" class="btn btn-white btn-large">Get My Free Quote</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.svg" alt="Blue Valley Home Improvement" class="footer-logo" />
+        <p>Professional exterior home services across the Lower Mainland.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <a href="services.html#window">Window Cleaning</a>
+        <a href="services.html#gutter">Gutter Cleaning</a>
+        <a href="services.html#power">Power Washing</a>
+        <a href="services.html#roof">Roof Cleaning</a>
+      </div>
+      <div class="footer-links">
+        <h5>Company</h5>
+        <a href="index.html">Home</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="contact.html">Free Quote</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Get in Touch</h5>
+        <p>📞 <a href="tel:+17789861726">778-986-1726</a></p>
+        <p>✉ <a href="mailto:bluevalleyhomeimprovement@gmail.com">bluevalleyhomeimprovement@gmail.com</a></p>
+        <p>📍 North Vancouver, BC</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Blue Valley Home Improvement. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
